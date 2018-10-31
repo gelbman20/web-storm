@@ -1,7 +1,0 @@
-<templateSet group="DICH">
-  <template name="prl" value="+parallax({&#10;&#9;img: 'home-classic-one-page-bg-04',&#10;&#9;addClass: 'wow fadeIn bg-extra-dark-gray'&#10;})" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JADE" value="true" />
-    </context>
-  </template>
-</templateSet>

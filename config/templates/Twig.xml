@@ -1,8 +1,0 @@
-<templateSet group="Twig">
-  <template name="emb" value="{% embed $TEMPLATE$ %}&#10;    $END$&#10;{% endembed %}&#10;" description="embed 'template'...endembed" toReformat="true" toShortenFQNames="false" deactivated="true">
-    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Twig" value="true" />
-    </context>
-  </template>
-</templateSet>
