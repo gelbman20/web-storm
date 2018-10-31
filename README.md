@@ -1,7 +1,22 @@
-- [Code Style Guide](http://confluence.devoffice.com/display/HTMLS/Code+Style+Guide)
-- [Список скриптов в заготовке](https://docs.google.com/document/d/1DfHyf38eRtMNqE09N8JIZvrM2tptPHl2WhPAVcs2fZ0/edit)
-- [Список сниппетов](https://docs.google.com/document/d/19OfRV7ntHLSEWfCQsxb6YOqdeUGtmQZFuSPpzm2UvsY/edit)
-- [Cписок scss миксинов](https://docs.google.com/document/d/1-_FYbJ7kYrIZuuqywCc2itOF96Owv_2_NzFpuBweJOk/edit?usp=sharing)
+### Web Storm 2018.1.4 - Portable
+Портативная версия с возможностью работы без установки.
 
-Показатели заготовки на gt-metrix - 96 and 95  
-Все вспомогательные ссылки доступны на [**сonfluence**](http://confluence.devoffice.com/display/HTMLS/Trunk+Builder)
+### Установка
+По умолчанию PhpStorm под Windows хранит настройки в папке .WebIde директтории пользователя. Изменим это. Зайдем в директорию bin и откроем текстовым редактором файл idea.properties. В этом файле есть две закомментированные строчки:
+
+`# idea.config.path=${user.home}/.WebIde/config`
+
+и
+
+`# idea.system.path=${user.home}/.WebIde/system`
+
+Нам нужно их изменить, что бы PhpStorm стал хранить эти данные не в папке с пользователем, а внутри своей папки. Для этого нужно заменить значение переменной `${user.home}` на `${idea.home}` и раскомментировать их. После этого, PhpStorm будер хранить настройки в своей папке. Я немного изменил, для удобства эти строки. Получилось вот так:
+
+`idea.config.path=${idea.home}/config`
+
+и
+
+`idea.system.path=${idea.home}/system`
+
+### Запускать
+Запускать через нужно через файл **bin/PhpStorm.exe**. Можно создать ярлык, и поместить его на рабочий стол или в меню пуск для удобства.
