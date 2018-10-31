@@ -1,0 +1,22 @@
+<templateSet group="Link">
+  <template name="ac" value="&lt;a href=&quot;callto:#&quot;&gt;$END$&lt;/a&gt;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="am" value="&lt;a href=&quot;mailto:#&quot;&gt;$END$&lt;/a&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="a" value="&lt;a href=&quot;#&quot;&gt;$END$&lt;/a&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ah" value="a {&#10;   &amp;,&#10;   &amp;:active,&#10;   &amp;:focus {&#10;     $END$&#10;   }&#10;   &amp;:hover {&#10;     &#10;   }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

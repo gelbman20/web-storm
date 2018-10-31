@@ -1,0 +1,12 @@
+<templateSet group="Novi offer">
+  <template name="nbgi" value=".custom-bg-image" description="Background Image Plugin" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="nbg" value=".novi-background" description="Novi Background plugin" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="cucumber.js-run-configuration" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62276-resto\.idea\62276-resto-dev.iml" timestamp="1532511280980" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62276-resto\.idea\modules.xml" timestamp="1525764636000" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62276-resto\.idea\vcs.xml" timestamp="1532511272905" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62276-resto\.idea\workspace.xml" timestamp="1536739743701" />
+  </project-files>
+</conversion>
+

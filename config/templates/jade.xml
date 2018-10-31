@@ -1,0 +1,360 @@
+<templateSet group="jade">
+  <template name="fb" value="#fb-root //TODO: Isert #fb-root in start of main tag. &#10;// Official Facebook widget&#10;.fb-widget&#10;  .fb-page-responsive &#10;    .fb-page(data-href='https://www.facebook.com/TemplateMonster', data-tabs='timeline', data-height='350', data-small-header='false', data-adapt-container-width='true', data-hide-cover='false', data-show-facepile='true')&#10;      .fb-xfbml-parse-ignore&#10;        blockquote(cite='https://www.facebook.com/TemplateMonster')&#10;          a(href='https://www.facebook.com/TemplateMonster') TemplateMonster" description="Official Facebook widget" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="socialite" value=" // Socialite&#10; ul.socialite-list&#10;  li: a.socialite.twitter-share(href='//twitter.com/share' data-url='www.templatemonster.com')&#10;  li: a.socialite.facebook-like(href='http://www.facebook.com/sharer.php?u=http://www.templatemonster.com' data-href='http://www.facebook.com/sharer.php?u=http://www.templatemonster.com', data-default-href='http://www.facebook.com/sharer.php?u=http://www.templatemonster.com' data-send='false' data-layout='button_count' data-width='60' data-show-faces='false' rel='nofollow' target='_blank')&#10;  li: a.socialite.googleplus-one" description="Socialite" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="responsive-tabs" value="// Responsive-tabs&#10;.responsive-tabs&#10;  ul.resp-tabs-list&#10;    li&#10;    li&#10;    li&#10;  .resp-tabs-container&#10;    div&#10;    div&#10;    div" description="Responsive-tabs" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="countdown" value="// Countdown&#10;.countdown(data-type='until' data-time='17 Dec 2018 16:00' data-format='wdhms')" description="Countdown" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="material-tabs" value="// RD Material Tabs&#10;.rd-material-tabs&#10;  .rd-material-tabs__list&#10;    ul&#10;      li&#10;        a(href='#')  Tab 1&#10;      li&#10;        a(href='#')  Tab 1&#10;      li&#10;        a(href='#')  Tab 1&#10;  .rd-material-tabs__container&#10;    div&#10;      | content 1&#10;    div&#10;      | content 2&#10;    div&#10;      | content 3" description="RD Material Tabs" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="twitter" value="// RD Twitter Feed&#10;.twitter(data-twitter-username='templatemonster')&#10;  div(data-twitter-type='tweet')&#10;    img(data-media_url='src' alt='' src='#')&#10;    div(data-tweet='text')" description="RD Twitter Feed" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="flickr" value="// RD Flickr&#10;.flickr(data-flickr-id='47302490@N05')&#10;  div(data-type='flickr-item')&#10;    img(data-image_q='src', data-title='alt', src='images/_blank.png', alt='')" description="RD Flickr" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="text-rotator" value="// Text Rotator&#10;.rotator(data-text-class='text-mantis text-ubold' data-rotate-interval='3000' data-rotate-animation='fadeInDown,fadeOutDown')&#10;  span.rotate-area&#10;  ul&#10;    li= &quot;text 1&quot;&#10;    li= &quot;text 2&quot;&#10;    li= &quot;text 3&quot;" description="Text Rotator" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="tooltip" value="// Tooltip&#10;button.button.button-default(type='button' data-toggle='tooltip' data-placement='left' title='Tooltip on left') Tooltip on left" description="Bootstrap Tooltip" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="photo-swipe" value="// PhotoSwipe image&#10;a.thumb(data-photo-swipe-item='' data-size='$1$' href='$2$')&#10;  img(src='$3$' width='$4$' height='$END$' alt='')" description="PhotoSwipe image" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="isotope" value=".row&#10;&#9;// Isotope Filters&#10;&#9;.col-lg-12&#10;&#9;&#9;.isotope-filters.isotope-filters-horizontal&#10;&#9;&#9;&#9;button.isotope-filters-toggle.button.button-sm.button-primary(data-custom-toggle='#isotope-filters', data-custom-toggle-disable-on-blur=&quot;true&quot;) Filter&#10;&#9;&#9;&#9;&#9;span.caret&#10;&#9;&#9;&#9;ul.isotope-filters-list#isotope-filters&#10;&#9;&#9;&#9;&#9;li&#10;&#9;&#9;&#9;&#9;&#9;a.active(data-isotope-filter='*', data-isotope-group='gallery', href='#') All&#10;&#9;&#9;&#9;&#9;li&#10;&#9;&#9;&#9;&#9;&#9;a(data-isotope-filter='Category 1', data-isotope-group='gallery', href='#') Category 1&#10;&#9;&#9;&#9;&#9;li&#10;&#9;&#9;&#9;&#9;&#9;a(data-isotope-filter='Category 2', data-isotope-group='gallery', href='#') Category 2&#10;&#9;&#9;&#9;&#9;li&#10;&#9;&#9;&#9;&#9;&#9;a(data-isotope-filter='Category 3', data-isotope-group='gallery', href='#') Category 3&#10;&#10;&#9;// Isotope Content&#10;&#9;.col-lg-12&#10;&#9;&#9;.isotope(data-isotope-layout='fitRows', data-isotope-group='gallery')&#10;&#9;&#9;&#9;.row&#10;&#9;&#9;&#9;&#9;.col-xs-12.col-sm-6.col-md-4.isotope-item(data-filter='*')&#10;&#9;&#9;&#9;&#9;&#9;| Category all&#10;&#9;&#9;&#9;&#9;.col-xs-12.col-sm-6.col-md-4.isotope-item(data-filter='Category 3')&#10;&#9;&#9;&#9;&#9;&#9;| Category 3&#10;&#9;&#9;&#9;&#9;.col-xs-12.col-sm-6.col-md-4.isotope-item(data-filter='Category 3')&#10;&#9;&#9;&#9;&#9;&#9;| Category 3&#10;&#9;&#9;&#9;&#9;.col-xs-12.col-sm-6.col-md-4.isotope-item(data-filter='Category 3')&#10;&#9;&#9;&#9;&#9;&#9;| Category 3&#10;&#9;&#9;&#9;&#9;.col-xs-12.col-sm-6.col-md-4.isotope-item(data-filter='Category 2')&#10;&#9;&#9;&#9;&#9;&#9;| Category 2&#10;&#9;&#9;&#9;&#9;.col-xs-12.col-sm-6.col-md-4.isotope-item(data-filter='Category 2')&#10;&#9;&#9;&#9;&#9;&#9;| Category 2&#10;&#9;&#9;&#9;&#9;.col-xs-12.col-sm-6.col-md-4.isotope-item(data-filter='Category 1')&#10;&#9;&#9;&#9;&#9;&#9;| Category 1&#10;&#9;&#9;&#9;&#9;.col-xs-12.col-sm-6.col-md-4.isotope-item(data-filter='Category 1')&#10;&#9;&#9;&#9;&#9;&#9;| Category 1&#10;&#9;&#9;&#9;&#9;.col-xs-12.col-sm-6.col-md-4.isotope-item(data-filter='Category 1')&#10;&#9;&#9;&#9;&#9;&#9;| Category 1" description="Isotope" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="owl" value="// Owl Carousel&#10;.owl-carousel(data-items='1', data-dots='true' data-nav='true' data-stage-padding='15', data-loop='false', data-margin='30', data-mouse-drag=&quot;false&quot;)&#10;&#9;.owl-item&#10;&#9;&#9;| content-1&#10;&#9;.owl-item&#10;&#9;&#9;| content-2&#10;&#9;.owl-item&#10;&#9;&#9;| content-3" description="Owl Carousel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="swiper" value="// Swiper&#10;.swiper-container.swiper-slider(data-loop='true' data-autoplay='false' data-simulate-touch='false')&#10;&#9;.swiper-wrapper&#10;&#9;&#9;.swiper-slide(data-slide-bg='https://goo.gl/tGePZb')&#10;&#9;&#9;&#9;.swiper-slide-caption&#10;&#9;&#9;&#9;&#9;h2(data-caption-animate='fadeInUp' data-caption-delay='100') Heading&#10;&#9;&#9;&#9;&#9;p(data-caption-animate='fadeInUp' data-caption-delay='250') Description&#10;&#9;&#9;&#9;&#9;a.button.button-primary(href='#' data-caption-animate='fadeInUp' data-caption-delay='450') Button&#10;&#10;&#9;&#9;.swiper-slide(data-slide-bg='https://goo.gl/tGePZb')&#10;&#9;&#9;&#9;.swiper-slide-caption&#10;&#9;&#9;&#9;&#9;h2(data-caption-animate='fadeInUp' data-caption-delay='100') Heading&#10;&#9;&#9;&#9;&#9;p(data-caption-animate='fadeInUp' data-caption-delay='250') Description&#10;&#9;&#9;&#9;&#9;a.button.button-primary(href='#' data-caption-animate='fadeInUp' data-caption-delay='450') Button" description="Swiper" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="progress" value="// Progress Bar&#10;.progress-bar-js.progress-bar-horizontal.progress-bar-default(data-value='70', data-stroke='30', data-easing='linear', data-counter='true' data-duration='1000')" description="Progress Bar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="facebook" value="// RD Facebook Feed&#10;.facebook(data-fb-id='TemplateMonster', data-fb-access='402518649933453|EvW-aO2Fmq3JWev0DS6okm3bPo0')&#10;  div(data-fb-post='')&#10;    img(src='images/_blank.png', alt='', data-picture='src', data-remove='')&#10;    p(data-message='text')" description="RD Facebook Feed" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="rd-mailform" value="// RD Mailform&#10;form.rd-mailform(data-form-output='form-output-global' data-form-type='contact' method='post' action='bat/rd-mailform.php')&#10;&#9;.form-wrap&#10;&#9;&#9;label.form-label.form-label-outside(for='contact-name') Name&#10;&#9;&#9;input#contact-name.form-input(type='text' name='name' data-constraints='@Required')&#10;&#9;.form-wrap&#10;&#9;&#9;label.form-label.form-label-outside(for='contact-phone') Phone&#10;&#9;&#9;input#contact-phone.form-input(type='text' name='phone' data-constraints='@Numeric @Required')&#10;&#9;.form-wrap&#10;&#9;&#9;label.form-label.form-label-outside(for='contact-email') E-Mail&#10;&#9;&#9;input#contact-email.form-input(type='email' name='email' data-constraints='@Email @Required')&#10;&#9;.form-wrap&#10;&#9;&#9;label.form-label.form-label-outside(for='contact-message') Message&#10;&#9;&#9;textarea#contact-message.form-input(name='message' data-constraints='@Required')&#10;&#9;//Google captcha&#10;&#9;.form-wrap.text-left.form-validation-left&#10;&#9;&#9;.recaptcha#captcha1(data-sitekey='6LfZlSETAAAAAC5VW4R4tQP8Am_to4bM3dddxkEt')&#10;&#9;.form-button&#10;&#9;&#9;button.button.button-primary(type='submit') Send" description="RD Mailform" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="modal" value="// Button trigger modal&#10;button.button.button-primary.button-lg(type='button', data-toggle='modal', data-target='#myModal')&#10;  | Launch demo modal&#10;// Modal&#10;#myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')&#10;  .modal-dialog(role='document')&#10;    .modal-content&#10;      .modal-header&#10;        button.close(type='button', data-dismiss='modal', aria-label='Close')&#10;          span(aria-hidden='true') &amp;times;&#10;        h4#myModalLabel.modal-title Modal title&#10;      .modal-body&#10;        | Some text&#10;      .modal-footer&#10;        button.button.button-default(type='button', data-dismiss='modal') Close&#10;        button.button.button-primary(type='button') Save changes" description="Bootstrap modal" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="dropdown" value="// Dropdown&#10;.dropdown&#10;  button#dLabel(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')&#10;    | Dropdown trigger&#10;    span.caret&#10;  ul.dropdown-menu(aria-labelledby='dLabel')&#10;    | Some text" description="Bootsrap Dropdown" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="nav-tabs" value="// Nav tabs&#10;ul.nav.nav-tabs(role='tablist')&#10;  li.active(role='presentation')&#10;    a(href='#home', aria-controls='home', role='tab', data-toggle='tab') Home&#10;  li(role='presentation')&#10;    a(href='#profile', aria-controls='profile', role='tab', data-toggle='tab') Profile&#10;  li(role='presentation')&#10;    a(href='#messages', aria-controls='messages', role='tab', data-toggle='tab') Messages&#10;  li(role='presentation')&#10;    a(href='#settings', aria-controls='settings', role='tab', data-toggle='tab') Settings&#10;// Tab panes&#10;.tab-content&#10;  #home.tab-pane.active(role='tabpanel') Some text 1&#10;  #profile.tab-pane(role='tabpanel') Some text 2&#10;  #messages.tab-pane(role='tabpanel') Some text 3&#10;  #settings.tab-pane(role='tabpanel') Some text 4" description="Bootstrap Tabs" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="checkbox" value="// Checkbox&#10;.btn-group(data-toggle='buttons')&#10;  label.btn.btn-primary.active&#10;    input(type='checkbox', autocomplete='off', checked='')&#10;    |  Checkbox 1 (pre-checked)&#10;  label.btn.btn-primary&#10;    input(type='checkbox', autocomplete='off')&#10;    |  Checkbox 2&#10;  label.btn.btn-primary&#10;    input(type='checkbox', autocomplete='off')&#10;    |  Checkbox 3" description="Bootsrap checkbox" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="radio" value="// Radio&#10;.btn-group(data-toggle='buttons')&#10;  label.btn.btn-primary.active&#10;    input#option1(type='radio', name='options', autocomplete='off', checked='')&#10;    |  Radio 1 (preselected)&#10;  label.btn.btn-primary&#10;    input#option2(type='radio', name='options', autocomplete='off')&#10;    |  Radio 2&#10;  label.btn.btn-primary&#10;    input#option3(type='radio', name='options', autocomplete='off')&#10;    |  Radio 3" description="Bootstrap Input Radio" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="collapse" value="// Collapse&#10;a.button.button-primary(role='button', data-toggle='collapse', href='#collapseExample', aria-expanded='false', aria-controls='collapseExample')&#10;  | Link with href&#10;button.button.button-primary(type='button', data-toggle='collapse', data-target='#collapseExample', aria-expanded='false', aria-controls='collapseExample')&#10;  | Button with data-target&#10;#collapseExample.collapse&#10;  .well&#10;    | Some text" description="Bootstrap Collapse" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="accordion" value="// Bootstrap collapse&#10;          #accordion1.panel-group.panel-group-custom.panel-group-corporate(role='tablist' aria-multiselectable='false')&#10;            +panel({&#10;              opened: true,&#10;              panelClass: 'panel-corporate',&#10;              parentId: 'accordion1',&#10;              number: '1',&#10;              header: 'Can I track my order?'&#10;            })&#10;              p Yes, you can! After placing your order you will receive an order confirmation via email. Each order starts production 15 minutes after your order is placed. Within a few hours of you placing your order, you will receive an expected delivery time. When the order will be ready for delivery, you will receive another email with the tracking number and a link to trace the order online with the courier.&#10;    &#10;            +panel({&#10;              panelClass: 'panel-corporate',&#10;              parentId: 'accordion1', &#10;              number: '2',&#10;              header: 'How can I change something in my order?'&#10;            })&#10;              p If you need to change something in your order, please contact us immediately. We usually process orders within 30 minutes, and once we have processed your order, we will be unable to make any changes. &#10;    &#10;            +panel({&#10;              panelClass: 'panel-corporate',&#10;              parentId: 'accordion1',&#10;              number: '3',&#10;              header: 'How can I pay for my order?'&#10;            })&#10;              p We accept Visa, MasterCard, and American Express credit and debit cards for your convenience.&#10;    &#10;            +panel({&#10;              panelClass: 'panel-corporate',&#10;              parentId: 'accordion1',&#10;              number: '4',&#10;              header: 'Can I return an item?'&#10;            })&#10;              p Please contact our administrators for more information on returning products purchased on our website.&#10;    &#10;            +panel({&#10;              panelClass: 'panel-corporate',&#10;              parentId: 'accordion1', &#10;              number: '5',&#10;              header: 'How long will my order take to be delivered?'&#10;            })&#10;              p Delivery times will depend on your location. Once payment is confirmed your order will be packaged. Delivery can be expected within a day." description="Bootstrap Accordions" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="carousel" value="// Carousel&#10;#carousel-example-generic.carousel.slide(data-ride='carousel')&#10;  // Indicators&#10;  ol.carousel-indicators&#10;    li.active(data-target='#carousel-example-generic', data-slide-to='0')&#10;    li(data-target='#carousel-example-generic', data-slide-to='1')&#10;    li(data-target='#carousel-example-generic', data-slide-to='2')&#10;  // Wrapper for slides&#10;  .carousel-inner(role='listbox')&#10;    .item.active&#10;      | Some text 1&#10;      .carousel-caption&#10;    .item&#10;      | Some text 2&#10;      .carousel-caption&#10;  // Controls&#10;  a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')&#10;    span.glyphicon.glyphicon-chevron-left(aria-hidden='true')&#10;    span.sr-only Previous&#10;  a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')&#10;    span.glyphicon.glyphicon-chevron-right(aria-hidden='true')&#10;    span.sr-only Next" description="Bootsrap Carousel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="affix" value="// Affix&#10;div(data-spy='affix', data-offset-top='60', data-offset-bottom='200')&#10;  | Some text" description="Bootstrap Affix" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="single-toggle" value="// Single toggle&#10;button.btn.btn-primary(type='button' data-toggle='button' aria-pressed='false' autocomplete='off')&#10;  | Single toggle" description="Bootstrap Single toggle (add active class to button)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="stateful" value="// Stateful&#10;button.btn-stateful.btn.btn-primary(type='button', data-loading-text='Loading...', autocomplete='off')&#10;  | Loading state" description="Bootsrap Stateful" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="alert" value="// Alert messages&#10;.alert.alert-danger.alert-dismissible.fade.in&#10;  button.close(type='button', data-dismiss='alert', aria-label='Close')&#10;    span(aria-hidden='true')&amp;times;&#10;  | Oh snap! You got an error!" description="Bootstrap Alerts" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="scroll-spy" value="// ScrollSpy&#10;.bs-example(data-example-id='embedded-scrollspy')&#10;  nav#navbar-example2.navbar.navbar-default.navbar-static&#10;    .container-fluid&#10;      .navbar-header&#10;        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='.bs-example-js-navbar-scrollspy')&#10;          span.sr-only Toggle navigation&#10;          span.icon-bar&#10;          span.icon-bar&#10;          span.icon-bar&#10;        a.navbar-brand(href='#') Project Name&#10;      .collapse.navbar-collapse.bs-example-js-navbar-scrollspy&#10;        ul.nav.navbar-nav&#10;          li&#10;            a(href='#fat') @fat&#10;          li&#10;            a(href='#mdo') @mdo&#10;          li.dropdown&#10;            a#navbarDrop1.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')&#10;              | Dropdown&#10;              span.caret&#10;            ul.dropdown-menu(aria-labelledby='navbarDrop1')&#10;              li&#10;                a(href='#one') one&#10;              li&#10;                a(href='#two') two&#10;              li.divider(role='separator')&#10;              li&#10;                a(href='#three') three&#10;  .scrollspy-example(data-spy='scroll', data-target='#navbar-example2', data-offset='0')&#10;    h4#fat @fat&#10;    p&#10;      | Some text 1.&#10;    h4#mdo @mdo&#10;    p&#10;      | Some text 2.&#10;    h4#one one&#10;    p&#10;      | Some text 3.&#10;    h4#two two&#10;    p&#10;      | Some text 4.&#10;    h4#three three&#10;    p&#10;      | Some text 5." description="Bootstrap ScrollSpy" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="popover" value="// Popover&#10;button.btn.btn-lg.btn-danger.bs-docs-popover(type='button', data-toggle='popover', title='Popover title', data-content=&quot;And here's some amazing content. It's very engaging. Right?&quot;) Click to toggle popover" description="Bootstrap Popover" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="countto" value="// CountTo&#10;.counter(data-from='$start$', data-to='$end$')" description="CountTo" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="rd-parallax" value="// RD Parallax&#10;section.rd-parallax&#10;  .rd-parallax-layer(data-speed='0.2', data-type='media', data-url='$end$')&#10;  .rd-parallax-layer(data-speed='0.3', data-type='html')&#10;    p Some text" description="RD Parallax" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="rd-search" value="// RD Search&#10;form.rd-search(action='search-results.html' method='GET' data-search-live='rd-search-results-live')&#10;  .form-wrap&#10;    label.form-label(for='rd-search-form-input') Type and hit enter...&#10;    input.form-input(id='rd-search-form-input' type='text' name='s' autocomplete='off')&#10;  #rd-search-results-live.rd-search-results-live" description="RD Search" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="video" value="// RD Video&#10;section.rd-video(data-rd-video-path=&quot;video/video-bg&quot; data-rd-video-loop=&quot;true&quot; data-rd-video-image-lg=&quot;50&quot;)" description="RD Video" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="calendar" value="// RD Calendar&#10;.rd-calendar&#10;  .rdc-panel&#10;    a.rdc-next&#10;    a.rdc-prev&#10;    .rdc-month&#10;    .rdc-fullyear&#10;  .rdc-table&#10;  .rdc-events&#10;    a.rdc-events_close&#10;    ul&#10;      li.rdc-event(data-date='10/28/2015')&#10;        | Event 1&#10;      li.rdc-event(data-date='10/31/2015')&#10;        | Event 2" description="RD Calendar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="fi" value=".wow.fadeIn" description="WOW FadeIn" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="fid" value=".wow.fadeIn(data-wow-delay=&quot;$1$s&quot;)" description="WOW FadeIn Delay" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="fl" value=".wow.fadeInLeft" description="WOW FadeInLeft" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="fld" value=".wow.fadeInLeft(data-wow-delay=&quot;$1$s&quot;)" description="WOW FadeInLeft Delay" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="fr" value=".wow.fadeInRight" description="WOW FadeInRight" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="frd" value=".wow.fadeInRight(data-wow-delay=&quot;$1$s&quot;)" description="WOW FadeInRight Delay" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="fu" value=".wow.fadeInUp" description="WOW FadeInUp" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="fud" value=".wow.fadeInUp(data-wow-delay=&quot;$1$s&quot;)" description="WOW FadeInUp Delay" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="time-circles" value="// TimeCircles&#10;.DateCountdown(data-type='until' data-date='2018-12-31 00:00:00' data-format='wdhms' data-color=config.primary data-bg='rgba(245, 245, 245, 1)' data-width='0.02')" description="TimeCircles" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="rd-audio" value="// RD Audio&#10;.rd-audio(data-rd-audio-playlist-name='first', data-rd-volume-bar-type='horizontal')&#10;  .left&#10;    // Prev Button&#10;    a.rd-audio-prev.material-icons-skip_previous.control-icon(href='#')&#10;    // Play\Pause button&#10;    a.rd-audio-play-pause.material-icons-play_arrow.control-icon(href='#')&#10;    // Next Button&#10;    a.rd-audio-next.material-icons-skip_next.control-icon(href='#')&#10;    // Stop Button&#10;    a.rd-audio-stop.material-icons-stop.control-icon(href='#')&#10;  .cen&#10;    // Progress bar&#10;    .rd-audio-progress-bar&#10;      // Progress bar Slider&#10;      .rd-audio-progress-bar-slider&#10;    // currentTime&#10;    span.rd-audio-current-time&#10;    // Track duration&#10;    span.rd-audio-duration&#10;    // Title&#10;    span.rd-audio-title&#10;  .right&#10;    // Volume button&#10;    a.rd-audio-volume.material-icons-volume_up.control-icon(href='#')&#10;    // Volume bar&#10;    .rd-audio-volume-bar&#10;      // Progress bar Slider&#10;      .rd-audio-volume-bar-slider&#10;ul.music-list(data-rd-audio-playlist='first', data-rd-audio-play-on='li')&#10;  li.skin1(data-rd-audio-src='audio/sound_1.mp3', data-rd-audio-title='1 sound')&#10;    | 1 sound&#10;  li.skin2(data-rd-audio-src='audio/sound_3.mp3', data-rd-audio-title='2 sound')&#10;    | 2 sound&#10;  li.skin1(data-rd-audio-src='audio/sound_2.mp3', data-rd-audio-title='3 sound')&#10;    | 3 sound&#10;  li.skin2(data-rd-audio-src='audio/sound_2.mp3', data-rd-audio-title='4 sound')&#10;    | 4 sound&#10;  li.skin1(data-rd-audio-src='audio/sound_3.mp3', data-rd-audio-title='5 sound')&#10;    | 5 sound" description="RD Audio" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="rdmap" value="// Google map search&#10;.form-group&#10;  label.form-label.rd-input-label(for='rd-google-map-address') Address&#10;  .input-group&#10;    input#rd-google-map-address.form-control.form-control-has-validation(type='text', name='address', data-constraints='@Required', placeholder='', autocomplete='off')&#10;    span.input-group-btn&#10;      a#rd-google-map-address-submit.btn.btn-primary(href='#') Find Address&#10;&#10;// RD Google Map&#10;.rd-google-map(class=&quot;rd-google-map__model&quot;, data-zoom='15', data-y='40.643180', data-x='-73.9874068', data-styles='[{&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ff4400&quot;},{&quot;saturation&quot;:-68},{&quot;lightness&quot;:-4},{&quot;gamma&quot;:0.72}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;},{&quot;featureType&quot;:&quot;landscape.man_made&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0077ff&quot;},{&quot;gamma&quot;:3.1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00ccff&quot;},{&quot;gamma&quot;:0.44},{&quot;saturation&quot;:-33}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#44ff00&quot;},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#007fff&quot;},{&quot;gamma&quot;:0.77},{&quot;saturation&quot;:65},{&quot;lightness&quot;:99}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;gamma&quot;:0.11},{&quot;weight&quot;:5.6},{&quot;saturation&quot;:99},{&quot;hue&quot;:&quot;#0091ff&quot;},{&quot;lightness&quot;:-86}]},{&quot;featureType&quot;:&quot;transit.line&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:-48},{&quot;hue&quot;:&quot;#ff5e00&quot;},{&quot;gamma&quot;:1.2},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-64},{&quot;hue&quot;:&quot;#ff9100&quot;},{&quot;lightness&quot;:16},{&quot;gamma&quot;:0.47},{&quot;weight&quot;:2.7}]}]')&#10;  ul.map_locations&#10;    li(data-y='40.643180', data-x='-73.9874068')&#10;      p&#10;        | 9870 St Vincent Place, Glasgow, DC 45 Fr 45." description="RD Google Map" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="photo-swipe-grp" value="// PhotoSwipe&#10;.range(data-photo-swipe-gallery='gallery')&#10;  .cell-md-4&#10;    a(data-photo-swipe-item='', data-size='1170x600', href='images/grid-system-07_original.jpg', data-author=&quot;Michael Hull&quot;)&#10;      img(width='370', height='280', src='images/grid-system-07.jpg', alt='')&#10;  .cell-md-4&#10;    a(data-photo-swipe-item='', data-size='1170x600', href='images/grid-system-08_original.jpg')&#10;      img(width='370', height='280', src='images/grid-system-08.jpg', alt='')&#10;  .cell-md-4&#10;    a(data-photo-swipe-item='', data-size='1170x600', href='images/grid-system-06_original.jpg')&#10;      img(width='370', height='280', src='images/grid-system-06.jpg', alt='')" description="PhotoSwipe Group" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="select2" value="// Select 2&#10;select.form-input.select(data-placeholder='Select an option' data-constraints='@Required')&#10;  option(label='placeholder')  option(value='2') Demo Item 1-1&#10;  option(value='3') Demo Item 1-2&#10;  option(value='4') Demo Item 1-2&#10;  option(value='5') Demo Item 2-1&#10;  option(value='6') Demo Item 2-2&#10;  option(value='7') Demo Item 2-3" description="Select 2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="radio-custom" value=".form-wrap&#10;  label.radio-inline&#10;    input(name='input-group-radio' value='radio-1' type='radio' checked)&#10;    | Radio 1&#10;  label.radio-inline&#10;    input(name='input-group-radio' value='radio-2' type='radio')&#10;    | Radio 2" description="Input Radio Custom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="checkbox-custom" value=".form-wrap&#10;  label.checkbox-inline&#10;    input(name='checkbox-1' value='checkbox-1' type='checkbox' checked)&#10;    | Checkbox 1&#10;  label.checkbox-inline&#10;    input(name='checkbox-2' value='checkbox-2' type='checkbox')&#10;    | Checkbox 2" description="Input checkbox custom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="input-time" value="// BootstrapDateTimePicker&#10;.form-wrap&#10;  label.form-label.form-label-outside(for='rd-mailform-time') Time:&#10;  input.form-input#rd-mailform-time(type='text' name='time' data-time-picker='time')" description="BootstrapDateTimePicker input type" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="input-date" value="// BootstrapDateTimePicker&#10;.form-wrap&#10;  label.form-label.form-label-outside(for='rd-mailform-date') Date:&#10;  input.form-input#rd-mailform-date(type='text' name='date' data-time-picker='date')" description="BootstrapDateTimePicker Input Type Date" toReformat="false" toShortenFQNames="true" />
+  <template name="slick" value="// Slick Carousel&#10;.slick-slider.carousel-parent(data-arrows='true' data-loop='false' data-dots='false' data-swipe='true' data-items='1' data-child='#child-carousel' data-for='#child-carousel')&#10;  .item&#10;    img(src='https://drscdn.500px.org/photo/93080225/q%3D80_m%3D2000/9a8d0b294252b66b70c3a01aff253fec', alt='', width='770', height='520')&#10;  .item&#10;    img(src='https://drscdn.500px.org/photo/92807471/q%3D80_m%3D2000/8d7a7b6e9213fe6ebbe4911c2605ed86', alt='', width='770', height='520')&#10;  .item&#10;    img(src='https://drscdn.500px.org/photo/92713843/q%3D80_m%3D2000/8f1032619aa5bf76ebf874c14f2aeeef', alt='', width='770', height='520')&#10;&#10;.slick-slider#child-carousel(data-for='.carousel-parent' data-arrows='true' data-loop='false' data-dots='false' data-swipe='true' data-items='1' data-xs-items='2' data-sm-items='3' data-md-items='4' data-lg-items='5' data-slide-to-scroll='1')&#10;  .item&#10;    img(src='https://drscdn.500px.org/photo/93080225/q%3D80_m%3D2000/9a8d0b294252b66b70c3a01aff253fec', alt='', width='120', height='80')&#10;  .item&#10;    img(src='https://drscdn.500px.org/photo/92807471/q%3D80_m%3D2000/8d7a7b6e9213fe6ebbe4911c2605ed86', alt='', width='120', height='80')&#10;  .item&#10;    img(src='https://drscdn.500px.org/photo/92713843/q%3D80_m%3D2000/8f1032619aa5bf76ebf874c14f2aeeef', alt='', width='120', height='80')" description="Slick Carousel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="rd-filepicker" value="// RD Filepicker&#10;.form-wrap&#10;    .rd-file-picker&#10;      input(name=&quot;file&quot;, type=&quot;file&quot;, multiple)&#10;      .rd-file-picker-meta&#10;      .rd-file-picker-btn Choose a file&#10;    .rd-file-drop&#10;      input(name=&quot;file&quot;, data-multiple-caption=&quot;{count} files selected&quot;, type=&quot;file&quot;, multiple)&#10;      .rd-file-drop-wrap&#10;        .rd-file-drop-btn Choose a file&#10;          p or drag it here&#10;      .rd-file-drop-meta" description="RD Filepicker" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="progress-circle" value="// Circle Progress Bar&#10;.progress-bar-circle(data-value='0.8' data-gradient=config.primary data-empty-fill='rgb(245,245,245)' data-size='150' data-thickness='10')&#10;  span" description="Circle Progress Bar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="stepper" value="input.form-input(type='number' data-zeros='true' value='5' min='1' max='20')" description="Stepper (input type=&quot;number&quot;)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="stucktable" value="// Stucktable&#10;table(data-responsive=&quot;true&quot;)&#10;  tr&#10;    td" description="Stucktable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="toggle-custom" value="button.button.button-sm.button-default(data-custom-toggle='#goal' data-custom-toggle-disable-on-blur=&quot;true&quot;) Custom Toggle&#10;          &#10;#goal Goal" description="Custom Toggle (Add active class)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="rd-video-player" value="// RD Video Player&#10;.rd-video-player.play-on-scroll(data-rd-video-path='$1$', data-rd-video-title='$2$', data-rd-video-muted='true', data-rd-video-preview='$3$')&#10;  .rd-video-wrap.embed-responsive-16by9&#10;    .rd-video-preloader&#10;    video(preload='metadata')&#10;    .rd-video-preview&#10;    .rd-video-top-controls&#10;      // Title&#10;      span.rd-video-title&#10;      a.rd-video-fullscreen.mdi.mdi-fullscreen.rd-video-icon(href='#')&#10;    .rd-video-controls&#10;      .rd-video-controls-buttons&#10;        // Play\Pause button&#10;        a.rd-video-play-pause.mdi.mdi-play(href='#')&#10;        // Progress bar&#10;      .rd-video-progress-bar&#10;      .rd-video-time&#10;        span.rd-video-current-time&#10;        span.rd-video-time-divider :&#10;        span.rd-video-duration&#10;      .rd-video-volume-wrap&#10;        // Volume button&#10;        a.rd-video-volume.mdi.mdi-volume-high.rd-video-icon(href='#')&#10;        .rd-video-volume-bar-wrap&#10;          // Volume bar&#10;          .rd-video-volume-bar&#10;            // Volume bar slider&#10;            .rd-video-volume-bar-slider" description="RD Video Player" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="rd-range" value="//RD Range&#10;input.rd-range-input-value-1(type='text' name='value-1')&#10;input.rd-range-input-value-2(type='text' name='value-2')&#10;&#10;.rd-range(data-min='50' data-max='1000' data-start='[75, 244]' data-step='1' data-tooltip='true' data-min-diff='10' data-input='.rd-range-input-value-1' data-input-2='.rd-range-input-value-2')&#10;&#10;//-- RD Range single slider&#10;.rd-range-input-value-3&#10;&#10;.rd-range(data-min='1' data-max='100' data-start='[15]' data-step='1' data-min-diff='10' data-input='.rd-range-input-value-3')" description="RD Range" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="olark" value="// begin olark code&#10;script(data-cfasync='false', type='text/javascript').&#10;  /*&lt;![CDATA[*/&#10;  window.olark || (function(c) {&#10;  var f = window,&#10;  d = document,&#10;  l = f.location.protocol == &quot;https:&quot; ? &quot;https:&quot; : &quot;http:&quot;,&#10;  z = c.name,&#10;  r = &quot;load&quot;;&#10;  var nt = function() {&#10;  f[z] = function() {&#10;  (a.s = a.s || []).push(arguments)&#10;  };&#10;  var a = f[z]._ = {},&#10;  q = c.methods.length;&#10;  while (q--) {&#10;  (function(n) {&#10;  f[z][n] = function() {&#10;  f[z](&quot;call&quot;, n, arguments)&#10;  }&#10;  })(c.methods[q])&#10;  }&#10;  a.l = c.loader;&#10;  a.i = nt;&#10;  a.p = {&#10;  0: +new Date&#10;  };&#10;  a.P = function(u) {&#10;  a.p[u] = new Date - a.p[0]&#10;  };&#10;  function s() {&#10;  a.P(r);&#10;  f[z](r)&#10;  }&#10;  f.addEventListener ? f.addEventListener(r, s, false) : f.attachEvent(&quot;on&quot; + r, s);&#10;  var ld = function() {&#10;  function p(hd) {&#10;  hd = &quot;head&quot;;&#10;  return [&quot;&lt;&quot;, hd, &quot;&gt;&lt;/&quot;, hd, &quot;&gt;&lt;&quot;, i, ' onl' + 'oad=&quot;var d=', g, &quot;;d.getElementsByTagName('head')[0].&quot;, j, &quot;(d.&quot;, h, &quot;('script')).&quot;, k, &quot;='&quot;, l, &quot;//&quot;, a.l, &quot;'&quot;, '&quot;', &quot;&gt;&lt;/&quot;, i, &quot;&gt;&quot;].join(&quot;&quot;)&#10;  }&#10;  var i = &quot;body&quot;,&#10;  m = d[i];&#10;  if (!m) {&#10;  return setTimeout(ld, 100)&#10;  }&#10;  a.P(1);&#10;  var j = &quot;appendChild&quot;,&#10;  h = &quot;createElement&quot;,&#10;  k = &quot;src&quot;,&#10;  n = d[h](&quot;div&quot;),&#10;  v = n[j](d[h](z)),&#10;  b = d[h](&quot;iframe&quot;),&#10;  g = &quot;document&quot;,&#10;  e = &quot;domain&quot;,&#10;  o;&#10;  n.style.display = &quot;none&quot;;&#10;  m.insertBefore(n, m.firstChild).id = z;&#10;  b.frameBorder = &quot;0&quot;;&#10;  b.id = z + &quot;-loader&quot;;&#10;  if (/MSIE[ ]+6/.test(navigator.userAgent)) {&#10;  b.src = &quot;javascript:false&quot;&#10;  }&#10;  b.allowTransparency = &quot;true&quot;;&#10;  v[j](b);&#10;  try {&#10;  b.contentWindow[g].open()&#10;  } catch (w) {&#10;  c[e] = d[e];&#10;  o = &quot;javascript:var d=&quot; + g + &quot;.open();d.domain='&quot; + d.domain + &quot;';&quot;;&#10;  b[k] = o + &quot;void(0);&quot;&#10;  }&#10;  try {&#10;  var t = b.contentWindow[g];&#10;  t.write(p());&#10;  t.close()&#10;  } catch (x) {&#10;  b[k] = o + 'd.write(&quot;' + p().replace(/&quot;/g, String.fromCharCode(92) + '&quot;') + '&quot;);d.close();'&#10;  }&#10;  a.P(2)&#10;  };&#10;  ld()&#10;  };&#10;  nt()&#10;  })({&#10;  loader: &quot;static.olark.com/jsclient/loader0.js&quot;,&#10;  name: &quot;olark&quot;,&#10;  methods: [&quot;configure&quot;, &quot;extend&quot;, &quot;declare&quot;, &quot;identify&quot;]&#10;  });&#10;  /* custom configuration goes here (www.olark.com/documentation) */&#10;  olark.identify('7830-582-10-3714'); /*]]&gt;*/&#10;noscript&#10;  a(href='https://www.olark.com/site/7830-582-10-3714/contact', title='Contact us', target='_blank') Questions? Feedback?&#10;  |  powered by &#10;  a(href='http://www.olark.com?welcome', title='Olark live chat software') Olark live chat software" description="Olark live chat" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="img-zoom" value="// Magnificent&#10;div(mag-thumb=&quot;inner&quot;)&#10;  img(src=&quot;images/puppyafter.jpg&quot; width=&quot;500&quot; height=&quot;300&quot;)&#10;div(mag-zoom=&quot;inner&quot;)&#10;  img(src=&quot;images/puppyafter.jpg&quot;)" description="Image zoom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="imgs" value="+img-set-dimensions('images/$END$', 'img-responsive')" description="image" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="img" value="img(src=&quot;images/$1$&quot;, width=&quot;$2$&quot;, height=&quot;$END$&quot;, alt=&quot;&quot;)" description="image img" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="responsive-tabs-ext" value="// Responsive-tabs&#10;.responsive-tabs(data-external-buttons=&quot;true&quot;)&#10;  ul.resp-tabs-list&#10;    li Mountains&#10;    li Nature&#10;    li City&#10;  .resp-tabs-container&#10;    div&#10;      // Slick Carousel&#10;      .slick-slider.carousel-parent(data-arrows=&quot;true&quot;, data-loop=&quot;false&quot;, data-dots=&quot;false&quot;, data-swipe=&quot;true&quot;, data-items=&quot;1&quot; )&#10;        .item&#10;          img(src='https://drscdn.500px.org/photo/93080225/q%3D80_m%3D2000/9a8d0b294252b66b70c3a01aff253fec', alt='', width='770', height='520')&#10;        .item&#10;          img(src='https://drscdn.500px.org/photo/92807471/q%3D80_m%3D2000/8d7a7b6e9213fe6ebbe4911c2605ed86', alt='', width='770', height='520')&#10;        .item&#10;          img(src='https://drscdn.500px.org/photo/92713843/q%3D80_m%3D2000/8f1032619aa5bf76ebf874c14f2aeeef', alt='', width='770', height='520')&#10;    div&#10;      // Slick Carousel&#10;      .slick-slider.carousel-parent(data-arrows=&quot;true&quot;, data-loop=&quot;false&quot;, data-dots=&quot;false&quot;, data-swipe=&quot;true&quot;, data-items=&quot;1&quot; )&#10;        .item&#10;          img(src='https://drscdn.500px.org/photo/26037507/q%3D80_m%3D2000/61947ff8ef3194b0823c1ec47aacb490', alt='', width='770', height='520')&#10;        .item&#10;          img(src='https://drscdn.500px.org/photo/26037507/q%3D80_m%3D2000/61947ff8ef3194b0823c1ec47aacb490', alt='', width='770', height='520')&#10;        .item&#10;          img(src='https://drscdn.500px.org/photo/1466757/q%3D80_m%3D2000/ba35d2c5d7732e5ac560ec264135530a', alt='', width='770', height='520')&#10;    div&#10;      // Slick Carousel&#10;      .slick-slider.carousel-parent(data-arrows=&quot;true&quot;, data-loop=&quot;false&quot;, data-dots=&quot;false&quot;, data-swipe=&quot;true&quot;, data-items=&quot;1&quot; )&#10;        .item&#10;          img(src=&quot;https://drscdn.500px.org/photo/163700623/q%3D80_m%3D1500/eda4e724fab56cb471788d0a040925f7&quot;, alt='', width='770', height='520')&#10;        .item&#10;          img(src=&quot;https://drscdn.500px.org/photo/163634337/q%3D80_m%3D1500_k%3D1/5cb41d516f8373f578ca1e377f5dd849&quot;, alt='', width='770', height='520')&#10;        .item&#10;          img(src=&quot;https://drscdn.500px.org/photo/26037507/q%3D80_m%3D2000/61947ff8ef3194b0823c1ec47aacb490&quot;, alt='', width='770', height='520')" description="Responcive tabs with external buttons" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="progress-linear" value="// Linear progress bar&#10;.progress-linear(data-to=&quot;74&quot;)&#10;  .progress-header.clearfix&#10;    span.small.text-ubold.pull-left HTML&#10;    span.small.text-ubold.pull-right.progress-value=&quot;74&quot;&#10;  .progress-bar-linear-wrap&#10;    .progress-bar-linear.bg-primary" description="Linear progress bar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="rd-instafeed" value=".instafeed(data-instafeed-tagname='tm_63853_football', data-instafeed-get='tagged', data-instafeed-sort='least-liked' data-lightgallery='group')&#10;&#9;div(data-instafeed-item='')&#10;&#9;&#9;a.thumb(href='#' data-images-standard_resolution-url='href' data-lightgallery='item')&#10;&#9;&#9;&#9;img(src='images/_blank.png' alt='' data-images-standard_resolution-url='src')" description="RD Instagram" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="vide" value=".bg-vide(data-vide-bg=&quot;mp4: video/office-day, poster: video/office-day&quot; data-vide-options='posterType: jpg, position: 0% 50%')" description="BG Vide" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="parallax" value="+parallax({ &#10;  img: '$SECECTION$',&#10;  addClass: 'section-md context-dark text-center'&#10;})&#10;  .shell&#10;    &#10;=&quot;\n&quot;" description="Material Parallax" toReformat="false" toShortenFQNames="true">
+    <variable name="SECECTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+</templateSet>

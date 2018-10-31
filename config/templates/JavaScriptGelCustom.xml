@@ -1,0 +1,17 @@
+<templateSet group="JavaScriptGelCustom">
+  <template name="con" value="console.log($END$);" description="Console.log()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$" value="$('$END$')" description="$('')" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($END$) {&#10;} else { &#10;}" description="if statment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

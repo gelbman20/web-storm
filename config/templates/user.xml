@@ -1,0 +1,119 @@
+<templateSet group="user">
+  <template name="1800" value="@media (min-width: $screen-xxl-min) {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="1920" value="@media (min-width: 1920px) {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="tal" value="text-align: left;&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="tar" value="text-align: right;&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="sec" value="&lt;!-- $1$ --&gt;&#10;   &lt;section class=&quot;well&quot;&gt;&#10;      &lt;div class=&quot;container&quot;&gt;&#10;          $END$&#10;      &lt;/div&gt;         &#10;   &lt;/section&gt;&#10;&lt;!-- END $1$ --&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="0" value="top: 0;&#10;bottom: 0;&#10;left: 0;&#10;right: 0;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="2051" value="@media (min-width: 2051px) {&#10;      $1$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="wt" value="will-change: transfrom;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="jc" value="@include justify-content($1$);" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="fd" value="@include flex-direction($1$);" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ag" value="@include align-items($1$);" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="focus" value="&amp;, &amp;:focus, &amp;:active {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="n" value="=&quot;\n&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="hide" value="visibility: hidden;&#10;opacity: 0;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="visible" value="visibility: visible;&#10;opacity: 1;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="left50" value="left: 50%;&#10;transform: translateX(-50%);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="topleft50" value="top: 50%;&#10;left: 50%;&#10;transform: translate(-50%, -50%);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="top50" value="top: 50%;&#10;transform: translateY(-50%);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="t" value="=&quot; &quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="3" value="transition: .3s ease-out all;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="tran" value="@include transform(translate$1$);" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="com" value="/**&#10;* &#10;* $1$&#10;* =====================================================&#10;*/&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="cucumber.js-run-configuration" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62273-fashion-blog\.idea\62273-fashion-blog-dev.iml" timestamp="1532431676106" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62273-fashion-blog\.idea\modules.xml" timestamp="1525696636000" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62273-fashion-blog\.idea\vcs.xml" timestamp="1532431665957" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62273-fashion-blog\.idea\webResources.xml" timestamp="1532431676113" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62273-fashion-blog\.idea\workspace.xml" timestamp="1536739651233" />
+  </project-files>
+</conversion>
+

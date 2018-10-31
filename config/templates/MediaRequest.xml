@@ -1,0 +1,92 @@
+<templateSet group="MediaRequest">
+  <template name="992" value="// Large ≥992px&#10;@include media-breakpoint-up(lg) {&#10;  $1$ &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="768" value="// Medium ≥768px&#10;@include media-breakpoint-up(md) {&#10;  $1$ &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="576" value="// Medium ≥576px&#10;@include media-breakpoint-up(sm) {&#10;  $1$ &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="1200" value="// Extra large ≥1200px&#10;@include media-breakpoint-up(xl) {&#10;  $1$ &#10;} " description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="1600" value="// Mega large ≥1600px&#10;@include media-breakpoint-up(xxl) {&#10;  $1$ &#10;} " description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="1199" value="// Extra large &lt;1200px&#10;@include media-breakpoint-down(lg) {&#10;  $1$ &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="1599" value="// Mega Large &lt;1600px&#10;@include media-breakpoint-down(xl) {&#10;  $1$ &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="991" value="// Large &lt;991px&#10;@include media-breakpoint-down(md) {&#10;  $1$ &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="767" value="// Medium &lt;768px&#10;@include media-breakpoint-down(sm) {&#10;  $1$ &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="575" value="// Small &lt;576px&#10;@include media-breakpoint-down(xs) {&#10;  $1$ &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="0-576" value="// Extra Small 0  ≤ 575 Small &#10;@include media-breakpoint-between(xs, xs) {&#10;  $1$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="576-768" value="// Small 576  ≤ 767 Medium&#10;@include media-breakpoint-between(sm, sm) {&#10;  $1$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="768-992" value="// Medium 768  ≤ 991 Large&#10;@include media-breakpoint-between(md, md) {&#10;  $1$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="992-1200" value="// Large 992  ≤ 1200 Extra Large&#10;@include media-breakpoint-between(lg, lg) {&#10;  $1$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="1200-1600" value="// Extra Large 1200  ≤ 1599 Mage Large&#10;@include media-breakpoint-between(xl, xl) {&#10;  $1$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

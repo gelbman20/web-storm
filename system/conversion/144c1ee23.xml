@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="cucumber.js-run-configuration" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="F:\xamp\htdocs\Landings\PROD-13850\1\.idea\PROD-13850.iml" timestamp="1531319709010" />
+    <file path="F:\xamp\htdocs\Landings\PROD-13850\1\.idea\misc.xml" timestamp="1531296589340" />
+    <file path="F:\xamp\htdocs\Landings\PROD-13850\1\.idea\modules.xml" timestamp="1531296589119" />
+    <file path="F:\xamp\htdocs\Landings\PROD-13850\1\.idea\vcs.xml" timestamp="1531296621895" />
+    <file path="F:\xamp\htdocs\Landings\PROD-13850\1\.idea\workspace.xml" timestamp="1531582474005" />
+  </project-files>
+</conversion>
+

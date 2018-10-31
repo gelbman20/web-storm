@@ -1,0 +1,62 @@
+<templateSet group="jade-custom-gel">
+  <template name="a" value="a$1$(href='#') $END$" description="Simple Link (not class link)" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="al" value="a.link$1$(href='#') $END$" description="Link" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="btn" value="a.button$1$(href='#') $END$" description="Button" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="at" value="a$1$(href='tel:#') $END$" description="Callto Link" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="am" value="a$1$(href='mailto:#') $END$" description="Mailto  Link" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="img" value="img.img-responsive$1$(src='images/$2$.jpg' width='$3$' height='$END$' alt='')" description="Mailto  Link" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="sec" value="// $1$&#10;section.section.section-$2$" description="Button" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="r" value=".range" description="Button" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="sh" value=".shell" description="Button" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="in" value="include" description="Page (jade) include function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+</templateSet>

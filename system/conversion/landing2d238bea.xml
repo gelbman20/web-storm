@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="cucumber.js-run-configuration" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\landing\.idea\jsLibraryMappings.xml" timestamp="1509439967464" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\landing\.idea\landing-dev.iml" timestamp="1525944272666" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\landing\.idea\misc.xml" timestamp="1509439967444" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\landing\.idea\modules.xml" timestamp="1509439967417" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\landing\.idea\workspace.xml" timestamp="1533215822640" />
+  </project-files>
+</conversion>
+

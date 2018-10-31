@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="cucumber.js-run-configuration" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62275-loan-offer\.idea\62275-loan-offer-dev.iml" timestamp="1532509917546" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62275-loan-offer\.idea\modules.xml" timestamp="1525704740000" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62275-loan-offer\.idea\vcs.xml" timestamp="1532509719515" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62275-loan-offer\.idea\workspace.xml" timestamp="1536739718118" />
+  </project-files>
+</conversion>
+

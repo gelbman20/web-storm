@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="cucumber.js-run-configuration" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62274-lawyer\.idea\62274-lawyer-dev.iml" timestamp="1532435175665" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62274-lawyer\.idea\modules.xml" timestamp="1525701528000" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62274-lawyer\.idea\vcs.xml" timestamp="1532433025280" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\62274-lawyer\.idea\workspace.xml" timestamp="1536739689409" />
+  </project-files>
+</conversion>
+

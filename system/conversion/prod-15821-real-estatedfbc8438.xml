@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="cucumber.js-run-configuration" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\prod-15821-real-estate\.idea\modules.xml" timestamp="1525856802723" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\prod-15821-real-estate\.idea\prod-15821-real-estate-dev.iml" timestamp="1532518121579" />
+    <file path="F:\xamp\htdocs\Updating the template\PROD-4201\prod-15821-real-estate\.idea\workspace.xml" timestamp="1536739864434" />
+  </project-files>
+</conversion>
+

@@ -1,0 +1,23 @@
+<templateSet group="gelCutsom">
+  <template name="unit" value=".unit$END$&#10;  .unit-left&#10;  .unit-body" description="Unit Responsive" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="css" value="/*&#10;** $1$ &#10;*/&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ffb" value="font-family: $font-family-base;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ffs" value="font-family: $font-family-sec;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
