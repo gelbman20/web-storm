@@ -4,6 +4,7 @@
 ### Установка
 При первом запуске выбрать 
 http://www.furong.ml/
+
 ![](https://raw.githubusercontent.com/gelbman20/web-storm/master/images/1.png)
 
 ### Запускать
